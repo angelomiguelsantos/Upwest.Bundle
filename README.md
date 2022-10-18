@@ -155,7 +155,7 @@ If you have a licence key please send an email to angelo.santos@upwest.pt and we
     AspSms Sms service keys (if applicable) 
     Smtp email server account (if applicable) 
 ## Price 
-Purchase package for 120€ / one licence per domain
+Purchase package for 120€ / one licence umbraco per domain
 ## License
 https://www.upwest.pt/#mu-license
 
