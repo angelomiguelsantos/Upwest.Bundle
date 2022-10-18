@@ -9,7 +9,7 @@ Configure Keys
 
 
 
-[![Build Status](https://upwest.pt/assets/images/uw_fundo_azul.png)](https://upwest.pt)
+[![Build Status](https://upwest.pt/media/icon3.png)](https://upwest.pt)
 
 
 
