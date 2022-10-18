@@ -10,6 +10,9 @@ Configure Keys
 
 
 [![Build Status](https://upwest.pt/assets/images/uw_fundo_azul.png)](https://upwest.pt)
+
+
+
 Umbraco 9 and 10  tools that streamline and automate member login processes out of the box, with social login buttons (Twitter,Facebook,Linkedin and Google), automatic translations with Azure and Google Services,automatic multilingual setup, Two factor authenticion with Twilio and AspSms sms services, services for inactive accounts, backup for deleted members, email validation, recover password functionality with email templates between others.
 The advanced member form builder contains a bundle of higly configurable plugins that you can use also in your content type documents  either in frontend and backend.
 ## Plugins
