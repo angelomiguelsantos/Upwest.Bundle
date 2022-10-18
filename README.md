@@ -138,7 +138,8 @@ There is a set of keys in your a appsettings.json to add your provider Keys
 ```
 
 Dont´t forget to add your email settings as well.
-This package has tested in 9.x.x and 10.x.x so it will work on every version of umbraco If you have any kind of problems in any of this versions please please open an issue on https://github.com/angelomiguelsantos/Upwest.Bundle/issues.
+
+This package was tested in 9.x.x and 10.x.x so it will work on every version of umbraco If you have any kind of problems in any of this versions please please open an issue on https://github.com/angelomiguelsantos/Upwest.Bundle/issues.
 If you have a licence key please send an email to angelo.santos@upwest.pt and we contact you directly
 
 ## For production environments
