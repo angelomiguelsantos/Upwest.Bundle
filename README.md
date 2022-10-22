@@ -162,14 +162,13 @@ For changing the css please add it before the snippet like this
 
 IT IS NOT UPWEST RESPONSABLILTY TO AJUST ANY KIND OF DESIGN OR CSS APART FORM THE ONE PROVIDED  
 
-All the views of Upwest.Bundle are compiled but you can override it on 
-If you have a license you can ask for the views and place them in the path /Views/Shared/Components/**
+All the views of Upwest.Bundle are compiled but you can override them by placing in the path /Views/Shared/Components/**
+If you have a license file please request the views 
 
-
-This package was tested in Umbraco 9.x.x and 10.x.x so it will work on every version of umbraco.
+This package was tested in Umbraco 9.x.x and 10.x.x so it will work on these Umbraco versions.
 If you have any kind of problems in any of this versions please open an issue on https://github.com/angelomiguelsantos/Upwest.Bundle/issues.
 
-If you have a licence key please send an email to angelo.santos@upwest.pt and we contact you directly
+If you have a licence key please send an email directly to angelo.santos@upwest.pt and we contact you directly as soon as possible
 
 ## For production environments
     Upwest keys (not reqired for localhost environment)
