@@ -143,13 +143,21 @@ Dont´t forget to add your email settings as well.
 * Please consult  https://www.youtube.com/watch?v=O6YjmOjXMA8 for translation instructions
 
 the package will automatically add this snippet to your default template 
-
 ```html
 @*Your upwest.Member*@
 @(await Component.InvokeAsync("upwest.member", new { alias = "youralias", model = Model }))
 @*Your upwest.Member*@
 ```
 
+For changing the css please add it before the snippet like this
+```html
+<link rel="stylesheet" href="path/to/your/styles.css">
+
+@*Your upwest.Member*@
+@(await Component.InvokeAsync("upwest.member", new { alias = "youralias", model = Model }))
+@*Your upwest.Member*@
+
+```
 
 
 This package was tested in Umbraco 9.x.x and 10.x.x so it will work on every version of umbraco If you have any kind of problems in any of this versions please open an issue on https://github.com/angelomiguelsantos/Upwest.Bundle/issues.
