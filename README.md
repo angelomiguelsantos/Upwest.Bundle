@@ -151,7 +151,7 @@ the package will automatically add this snippet to your default template
 
 For changing the css please add it before the snippet like this
 ```html
-<link rel="stylesheet" href="path/to/your/styles.css">
+<link rel="stylesheet" href="path/to/your/styles.css">**
 
 @*Your upwest.Member*@
 @(await Component.InvokeAsync("upwest.member", new { alias = "youralias", model = Model }))
