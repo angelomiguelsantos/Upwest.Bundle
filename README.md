@@ -186,7 +186,7 @@ If you have a licence key please send an email directly to angelo.santos@upwest.
 ## Price 
 Purchase package for 120€ / one license per umbraco domain, contempling assistence and updates during a period of a year
 
-##Subscription Renewals
+## Subscription Renewals
 When your subscription expires, you can renew to receive another year of updates and support. If you choose not to renew, you can continue using the last product version released before your subscription expired.
 
 
