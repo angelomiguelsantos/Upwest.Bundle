@@ -160,7 +160,7 @@ For changing the css please add it before the snippet like this
 ```
 **NOTE : ALL THE PACKAGES INCLUDED IN UPWEST.BUNDLE WERE BUILT WITH MAXIMUM CSS ISOLATION BUT CAN COLIDE WITH YOUR OWN CSS´S
 
-IT IS NOT UPWEST RESPONSABLILTY TO AJUST ANY KIND OF DESIGN OR CSS  
+IT IS NOT UPWEST RESPONSABLILTY TO AJUST ANY KIND OF DESIGN OR CSS APART FORM THE ONE PROVIDED  
 
 All the views of Upwest.Bundle are compiled but you can override it on 
 If you have a license you can ask for the views and place them in the path /Views/Shared/Components/**
