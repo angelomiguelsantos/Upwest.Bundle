@@ -139,6 +139,11 @@ There is a set of keys in your a appsettings.json to add your provider Keys
 
 Dont´t forget to add your email settings as well.
 
+Please consult https://www.youtube.com/watch?v=fF5elq3Ed4g for instalation
+Please consult  https://www.youtube.com/watch?v=O6YjmOjXMA8 for tranlsation instructions
+
+
+
 This package was tested in Umbraco 9.x.x and 10.x.x so it will work on every version of umbraco If you have any kind of problems in any of this versions please open an issue on https://github.com/angelomiguelsantos/Upwest.Bundle/issues.
 
 If you have a licence key please send an email to angelo.santos@upwest.pt and we contact you directly
