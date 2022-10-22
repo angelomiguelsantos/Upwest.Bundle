@@ -160,7 +160,7 @@ For changing the css please add it before the snippet like this
 ```
 **NOTE : ALL THE PACKAGES INCLUDED IN UPWEST.BUNDLE WERE BUILT WITH MAXIMUM CSS ISOLATION BUT CAN COLIDE WITH YOUR OWN CSS´S
 
-IT IS NOT UPWEST RESPONSABLILTY TO AJUST ANY KIND OF DESIGN OR CSS APART FORM THE ONE PROVIDED  
+IT IS NOT UPWEST RESPONSABLILTY TO ADJUST ANY KIND OF DESIGN OR CSS APART FORM THE ONES PROVIDED  
 
 All the views of Upwest.Bundle are compiled but you can override them by placing in the path /Views/Shared/Components/**
 If you have a license file please request the views 
@@ -181,11 +181,17 @@ If you have a licence key please send an email directly to angelo.santos@upwest.
     Twilio Sms service keys (if applicable) 
     AspSms Sms service keys (if applicable) 
     Smtp email server account (if applicable) 
-## Price 
-Purchase package for 120€ / one license per umbraco domain
-## License
 
+
+## Price 
+Purchase package for 120€ / one license per umbraco domain, contempling assistence and updates during a period of a year
+
+##Subscription Renewals
+When your subscription expires, you can renew to receive another year of updates and support. If you choose not to renew, you can continue using the last product version released before your subscription expired.
+
+
+## License
 Put your license.lic file in /App_Plugins/upwest.bundle/_upwest.base/[your license.lic file goes here]
 
-https://www.upwest.pt/#mu-license
+Read license file - https://www.upwest.pt/#mu-license
  
