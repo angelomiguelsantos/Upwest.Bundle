@@ -181,7 +181,7 @@ If you have a licence key please send an email to angelo.santos@upwest.pt and we
 Purchase package for 120€ / one license per umbraco domain
 ## License
 
-Put your license.lic file in \App_Plugins\upwest.bundle\_upwest.base\your license.lic file goes here
+Put your license.lic file in /App_Plugins/upwest.bundle/_upwest.base/[your license.lic file goes here]
 
 https://www.upwest.pt/#mu-license
  
