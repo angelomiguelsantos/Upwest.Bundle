@@ -160,7 +160,7 @@ For changing the css please add it before the snippet like this
 ```
 
 All the views of Upwest.Bundle are compiled but you can override it on 
-If you have a license you can ask for the views and place them in the path \Views\Shared\Components\[COMPONENT NAME]\default.cshtml  
+If you have a license you can ask for the views and place them in the path /Views/Shared/Components/**
 
 
 This package was tested in Umbraco 9.x.x and 10.x.x so it will work on every version of umbraco.
