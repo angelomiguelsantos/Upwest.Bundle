@@ -184,4 +184,4 @@ Purchase package for 120€ / one license per umbraco domain
 Put your license.lic file in \App_Plugins\upwest.bundle\_upwest.base\[your license.lic file goes here]
 
 https://www.upwest.pt/#mu-license
-
+ 
