@@ -168,6 +168,7 @@ If you have a license file please request the views
 This package was tested in Umbraco 9.x.x and 10.x.x so it will work on these Umbraco versions.
 If you have any kind of problems in any of this versions please open an issue on https://github.com/angelomiguelsantos/Upwest.Bundle/issues.
 
+
 If you have a licence key please send an email directly to angelo.santos@upwest.pt and we contact you directly as soon as possible
 
 ## For production environments
@@ -181,6 +182,21 @@ If you have a licence key please send an email directly to angelo.santos@upwest.
     Twilio Sms service keys (if applicable) 
     AspSms Sms service keys (if applicable) 
     Smtp email server account (if applicable) 
+
+## Translating
+When Upwest.Bundle is installed translates from English(en) to your domain languages automatically, if you have the translate switch to "true" in your appsettings.json parameter.
+When you write your own inputs in your document or member types, please ensure that the language you use is the one in your appsettings.json file parameter "TranslateFrom:YOUR LANGUAGE CULTURE LETTERS" otherwise the service will not work
+    
+```html
+ "Upwest": {
+      "Key": "Please request your key to angelo.santos@upwest.pt",
+      "TranslateFrom": "en" <---------- HERE
+    },
+
+```
+
+In the example above all the texts have to be inserted in english ("TranslateFrom": "en") for the service to work
+
 
 
 ## Price 
