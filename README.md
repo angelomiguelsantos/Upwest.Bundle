@@ -172,6 +172,8 @@ If you have any kind of problems in any of this versions please open an issue on
 
 If you have a licence key please send an email directly to angelo.santos@upwest.pt and we contact you directly as soon as possible
 
+Note that all the improvments and sugestions are welcome :) 
+
 ## For production environments
     Upwest keys (not reqired for localhost environment)
     Azure keys for bing translation services (if applicable)
