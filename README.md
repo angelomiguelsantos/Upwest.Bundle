@@ -188,6 +188,7 @@ Note that all the improvments and sugestions are welcome :)
 
 ## Translating
 When Upwest.Bundle is installed translates from English(en) to your domain languages automatically, if you have the translate switch to "true" in your appsettings.json parameter.
+
 When you write your own inputs in your document or member types, please ensure that the language you use is the one in your appsettings.json file parameter "TranslateFrom:YOUR LANGUAGE CULTURE LETTERS" otherwise the service will not work
     
 ```html
