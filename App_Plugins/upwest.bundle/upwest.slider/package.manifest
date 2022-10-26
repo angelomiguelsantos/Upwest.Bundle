@@ -1,0 +1,102 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.slider",
+      "name": "slider",
+      "group": "Upwest",
+      "icon": "icon-trafic",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.slider/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Skin",
+            "description": "Sets the slider looks",
+            "key": "skin",
+            "view": "~/App_Plugins/upwest.bundle/upwest.slider/prevalueseditors/skins.html"
+          },
+          {
+            "label": "Snap grid to step",
+            "description": "if the slider snaps grid to step",
+            "key": "gridSnap",
+            "view": "boolean"
+          },
+          {
+            "label": "Drags interval",
+            "description": "If the slider is draggable",
+            "key": "dragInterval",
+            "view": "boolean"
+          },
+          {
+            "label": "Enable range",
+            "description": "adds range to slider",
+            "key": "enableRange",
+            "view": "boolean"
+          },
+          {
+            "label": "Initial value 'from'",
+            "description": "Sets the initial value of the left slider",
+            "key": "from",
+            "view": "decimal"
+          },
+          {
+            "label": "Initial value 'to'",
+            "description": "Sets the initial value of the right slider",
+            "key": "to",
+            "view": "decimal"
+          },
+          {
+            "label": "Min value",
+            "description": "Sets the minimum value of the slider",
+            "key": "min",
+            "view": "decimal"
+          },
+          {
+            "label": "Max value",
+            "description": "Sets the maximum value of slider",
+            "key": "max",
+            "view": "decimal"
+          },
+          {
+            "label": "Step",
+            "description": "Sets the steps of the slider",
+            "key": "step",
+            "view": "decimal"
+          },
+          {
+            "label": "Prefix",
+            "description": "Sets the legend prefix",
+            "key": "prefix",
+            "view": "textstring"
+          },
+          {
+            "label": "Postfix",
+            "description": "Sets the legend postfix",
+            "key": "postfix",
+            "view": "textstring"
+          },
+          //{
+          //  "label": "Width",
+          //  "description": "Widht of the input textbox (If only a number is indicated it will assume 'px')",
+          //  "key": "width",
+          //  "view": "textstring"
+          //},
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+        ]
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.slider/dependencies/ion.rangeSlider.min.js",
+    "~/App_Plugins/upwest.bundle/upwest.slider/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/upwest.slider/dependencies/ion.rangeSlider.min.css"
+  ]
+}

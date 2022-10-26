@@ -1,0 +1,106 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.serversideinputvalidation",
+      "name": "Server side input validation",
+      "group": "Upwest",
+      "icon": "icon-check",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.serversideinputvalidation/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Validate true if exists",
+            "description": "The input is validated if inputed text exists",
+            "key": "exists",
+            "view": "boolean"
+          },
+          {
+            "label": "From database table",
+            "description": "if data is obtained from a database table",
+            "key": "byTable",
+            "view": "boolean"
+          },
+          {
+            "label": "Table",
+            "description": "The database table to get the data",
+            "key": "table",
+            "view": "textstring"
+          },
+          {
+            "label": "Get from umbraco content",
+            "description": "if data is obtained from a umbraco content",
+            "key": "byContent",
+            "view": "boolean"
+          },
+          {
+            "label": "Umbraco content type",
+            "description": "the content type to get the property to read from",
+            "key": "contentTypeId",
+            "view": "~/App_Plugins/upwest.bundle/upwest.serversideinputvalidation/prevalueseditors/contenttypes.html"
+          },
+          {
+            "label": "Get from members",
+            "description": "if data is obtained from the umbraco members",
+            "key": "byMember",
+            "view": "boolean"
+          },
+          {
+            "label": "Get from users",
+            "description": "if data is obtained from the umbraco users",
+            "key": "byUser",
+            "view": "boolean"
+          },
+          {
+            "label": "Field or alias",
+            "description": "The alias or column field to get the data from",
+            "key": "field",
+            "view": "~/App_Plugins/upwest.bundle/upwest.serversideinputvalidation/prevalueseditors/fields.html"
+          },
+          {
+            "label": "Filter",
+            "description": "The query filter to get the data ( ex: yourColumn='someValue' and otherValue=1 or anotherValue like '%yourValue%' )",
+            "key": "filter",
+            "view": "textstring"
+          },
+          {
+            "label": "Message on error",
+            "description": "The message to display if the input is not validated on server",
+            "key": "messageOnError",
+            "view": "textstring"
+          },
+          {
+            "label": "Icon",
+            "description": "The the to display in the right side of the input",
+            "key": "icon",
+            "view": "textstring"
+          },
+          {
+            "label": "Width",
+            "description": "Widht of the input textbox (If only a number is indicated it will assume 'px')",
+            "key": "width",
+            "view": "textstring"
+          },
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+        ]
+      },
+      "defaultConfig": {
+        "icon": "glyphicon-pencil"
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.serversideinputvalidation/prevalueseditors/contenttypes.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.serversideinputvalidation/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/_upwest.base/dependencies/bootstrap-upwest.css",
+    "~/App_Plugins/upwest.bundle/upwest.serversideinputvalidation/dependencies/serverSideInputValidation.css"
+  ]
+}

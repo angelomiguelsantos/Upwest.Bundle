@@ -1,0 +1,67 @@
+﻿@using System
+@using Upwest.ViewModels
+@using Upwest.Extensions
+@using Umbraco.Cms.Web.Common;
+@using Umbraco.Cms.Web.Common.Controllers;
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+@model ServerSideInputValidationViewModel
+@{  
+    Model.Dependencies = "serversideinputvalidation.css,upwest.serversideinputvalidation.js";
+}
+@(await Component.InvokeAsync("Base", Model ))
+
+@functions
+{
+    public string GetAntiXsrfRequestToken()
+    {
+        return Xsrf.GetAndStoreTokens(Context).RequestToken;
+    }
+} 
+@*<div class="bootstrap-upwest" id="container@(Model.Alias)">*@
+    <div class="bootstrap-upwest upwestContainer" style="width:@Model.Width">            
+    <label class="upwest-input-label" id="lbl@(Model.Alias)" for="@Model.Alias">@Model.T(Model.Label)@(Model.RequiredIconHtml)</label>
+    <div class="input-group date">
+        <input id="@Model.Alias" @(Model.AutoCompleteText) type="@(Model.FieldType)" data-label="lbl@(Model.Alias)" name="@Model.Alias" maxlength="@Model.MaxLength" style="width:100%" class="form-control @Model.RequiredClass" value="@Model.Value" @Model.ReadonlyText>
+        <div class="input-group-addon">
+            <span id="icon@(Model.Alias)" class="glyphicon @Model.Icon"></span>@*<msg style="display:none" class="message" id="btnValidateEmail@(Model.Alias)"><a href="#">@Model.T("Please click to validate your email")</a></msg>*@
+        </div>            
+    </div>            
+</div>  
+<br />    
+<script>
+    
+    $("#@(Model.Alias)").change(function() {
+        $(this).serverSideInputValidation({            
+            alias:"@Model.Alias",            
+            icon : "@Model.Icon"
+        }).change();
+    });
+
+    $("#@(Model.Alias)").blur(function() {                
+        $(this).serverSideInputValidation({                 
+            exists: @Model.Exists.ToStringLower(),
+            byTable: @Model.ByTable.ToStringLower(), 
+            byMember: @Model.ByMember.ToStringLower(),
+            byUser: @Model.ByUser.ToStringLower(),
+            byContent: @Model.ByContent.ToStringLower(),
+            table:"@(Model.Table)",
+            field:"@(Model.Field)",                        
+            contentTypeId: @Model.Contenttypeid.IfNullOrEmptyReturnZero(),
+            culture: "en-US",
+            languageId : @Model.LanguageId,
+            label:"@Model.Label",
+            alias:"@Model.Alias",
+            fieldType : "@Model.FieldType",
+            token: "@GetAntiXsrfRequestToken()",
+            icon : "@Model.Icon"
+        }).validateOnServer(this.value);    
+    });    
+</script>
+
+
+    
+
+
+
+
+    
