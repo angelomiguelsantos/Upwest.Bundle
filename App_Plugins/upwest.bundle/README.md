@@ -1,16 +1,7 @@
 ﻿# Upwest.Bundle Umbraco package
 ## _By Upwest_
 
-Google traking G-TSM2RWN549
-
-TOPICS
-Configure Keys
-
-
-
-
-[![Build Status](https://upwest.pt/media/icon3.png)](https://upwest.pt)
-
+[![Build Status](https://www.upwest.pt/media/icon3.png)](https://www.upwest.pt)
 
 
 Umbraco 9 and 10  tools that streamline and automate member login processes out of the box, with social login buttons (Twitter,Facebook,Linkedin and Google), automatic translations with Azure and Google Services,automatic multilingual setup, Two factor authenticion with Twilio and AspSms sms services, services for inactive accounts, backup for deleted members, email validation, recover password functionality with email templates between others.
