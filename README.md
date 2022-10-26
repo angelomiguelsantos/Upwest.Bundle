@@ -68,6 +68,23 @@ Upwest bundle uses a number of open source projects:
 	dotnet add package Upwest.Bundle 1.0.0
 
 
+## Manual Instalation
+	-Download zip file from https://github.com/angelomiguelsantos/Upwest.Bundle/ 
+	-Add *.dll to your bin folder
+	-Add references to 
+		1-Google.Apis.Auth 1.57.0
+		1-Google.Cloud.Translation.V2 2.1.0
+		1-Microsoft.AspNetCore.Authentication.Google 6.0.8
+		1-Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 6.0.10
+		1-TweetinviAPI 5.0.4
+		1-Twilio 5.80.0
+		1-Google.Apis.Auth 1.57.0
+		1-ASPSMS 0.0.2 (.Net framework and could show you an alert on your references,If you have any trouble please use Twilio Sms service and please open an issue here)
+		
+	
+
+
+
 
 *    Ask for your licence.lic file that contains your licence key to angelo.santos@upwest.pt and put it in your 'App_Plugins/upwest.bundle/_upwest.base' directory `
 *    You can test Upwest.Bundle on your localhost environment without any restrictions
