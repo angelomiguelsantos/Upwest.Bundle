@@ -1,0 +1,80 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.datetimepicker",
+      "name": "Datetime Picker",
+      "group": "Upwest",
+      "icon": "icon-calendar-alt",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.datetimepicker/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Date format",
+            "description": "Date format",
+            "key": "format",
+            "view": "~/App_Plugins/upwest.bundle/upwest.datetimepicker/prevalueseditors/dateformats.html"
+          },
+          {
+            "label": "With time picker",
+            "description": "If the picker contains also a time picker together with date",
+            "key": "timePicker",
+            "view": "boolean"
+          },
+          {
+            "label": "Only time picker",
+            "description": "If the picker contains only a time picker without date",
+            "key": "onlyTimepicker",
+            "view": "boolean"
+          },
+          {
+            "label": "Time picker 24 hours",
+            "description": "Use 24-hour instead of 12-hour times, removing the AM/PM selection.",
+            "key": "timePicker24Hours",
+            "view": "boolean"
+          },
+          {
+            "label": "With seconds",
+            "description": "If the picker contains time with seconds",
+            "key": "withSeconds",
+            "view": "boolean"
+          },
+          {
+            "label": "Width",
+            "description": "Width of the input textbox (If only a number is indicated it will assume 'px')",
+            "key": "width",
+            "view": "textstring"
+          },
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+          //,
+          //{
+          //  "label": "Inline",
+          //  "description": "If the picker is without a text input",
+          //  "key": "inline",
+          //  "view": "boolean"
+          //},
+
+        ]
+      },
+      "defaultConfig": {                        
+        "width": "200"
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.datetimepicker/dependencies/moment-with-locales.min.js",
+    "~/App_Plugins/upwest.bundle/upwest.datetimepicker/dependencies/bootstrap-datetimepicker.min.js",
+    "~/App_Plugins/upwest.bundle/upwest.datetimepicker/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/_upwest.base/dependencies/bootstrap-upwest.css",
+    "~/App_Plugins/upwest.bundle/upwest.datetimepicker/dependencies/bootstrap-datetimepicker.css",
+    "~/App_Plugins/upwest.bundle/upwest.datetimepicker/dependencies/upwest.datetimepicker.css"
+  ]
+  }

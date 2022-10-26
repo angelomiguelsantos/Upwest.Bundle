@@ -1,0 +1,12 @@
+﻿<div ng-controller="dateRangepicker as vm" class="bootstrap-upwest">
+    <div style="height: 25px;" ng-if="loading">
+        <umb-load-indicator></umb-load-indicator>
+    </div>
+    <div class="input-group date input-upwestDaterangepicker" style="display: none; width: 800px; max-width: 100%;">
+        <input id="{{vm.alias}}" name="{{vm.alias}}" type="text" class="form-control input-upwestDaterangepicker" ng-model="model.value" ng-required="vm.required">
+        <div class="input-group-addon">
+            <span style="cursor: pointer;" ng-click="vm.iconClick()" class="glyphicon glyphicon-calendar"></span>
+        </div>
+    </div>
+</div>
+
