@@ -59,7 +59,7 @@ Upwest bundle uses a number of open source projects:
 - Umbraco 9 (or greater) - Umbraco is the leading open-source ASP.NET Core CMS 
 - Open source jquery  plugins (kendocore,icheck,ijaboCropTool,moment,intlTelInput,jquery.inputmask,jquery.maskMoney,jquery.smartTab,jquery.smartWizard,trumbowygbootstrap-datepicker,daterangepicker,ion.rangeSlider,selectize,bootstrap-material-datetimepicker,jquery.passwordRequirementspasstrength)
 - ASPSMS - Sending worldwide SMS messages with the ASPSMS.com API to over 800 mobile networks. This .NET assembly contains all you need to process text messages, two-factor token authentication and other SMS. Get a free test account and free test credits for your project.
-- Twilio - provides a simple HTTP-based API for sending and receiving phone calls and text messages. Learn more on twilio.com.
+- Twilio - Provides a simple HTTP-based API for sending and receiving phone calls and text messages. Learn more on twilio.com.
 - Google cloud translation - Recommended Google client library to access the Translate v2 API. It wraps the Google.Apis.Translate.v2 client library, making common operations simpler in client code. The Translate API translates text from one language to another.
 - Tweetenvi - Is an intuitive .NET C# library to access the Twitter REST API. It is a .NET Core library that can be used for development in ASP.NET, Xamarin Android, Xamarin iOS and Windows 10 Universal Apps.
 - Azure Translation services - A cloud-based machine translation service supporting multiple languages. Translator is used to build applications, websites, tools, or any solution requiring multilanguage support. Azure Translator Text API is a cloud-based machine translation service supporting multiple languages
