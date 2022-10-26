@@ -139,9 +139,9 @@ There is a set of keys in your a appsettings.json to add your provider Keys
 
 Dont´t forget to add your email settings as well.
 
-* Please watch https://www.youtube.com/watch?v=fF5elq3Ed4g for instalation instructions
-* Please watch  https://www.youtube.com/watch?v=O6YjmOjXMA8 for translation instructions
-* Please watch  https://www.youtube.com/watch?v=lLkkHNKtl5s for the plugin instructions
+* Please watch https://www.youtube.com/watch?v=fF5elq3Ed4g for instalation
+* Please watch  https://www.youtube.com/watch?v=O6YjmOjXMA8 for translation
+* Please watch  https://www.youtube.com/watch?v=8Y600EIa33Q for the plugin
 
 the package will automatically add this snippet to your default template 
 ```html
@@ -172,7 +172,7 @@ If you have any kind of problems in any of this versions please open an issue on
 
 If you have a licence key please send an email directly to angelo.santos@upwest.pt and we contact you directly as soon as possible
 
-Note that all the improvments and sugestions are welcome :) 
+Note that all the improvments and sugestions are welcome.  
 
 ## For production environments
     Upwest keys (not reqired for localhost environment)
@@ -204,7 +204,7 @@ In the example above all the texts have to be inserted in english ("TranslateFro
 
 
 ## Price 
-Purchase package for 120€ / one license per umbraco domain, contempling assistence and updates during a period of a year
+Purchase package for 120€ / one license per umbraco domain, contempling assistence and updates during a period of one year
 
 ## Subscription Renewals
 When your subscription expires, you can renew to receive another year of updates and support. If you choose not to renew, you can continue using the last product version released before your subscription expired.
