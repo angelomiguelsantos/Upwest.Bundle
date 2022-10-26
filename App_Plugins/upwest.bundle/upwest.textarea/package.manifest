@@ -1,0 +1,59 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.textarea",
+      "name": "textarea",
+      "group": "Upwest",
+      "icon": "icon-desktop",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.textarea/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Max length",
+            "description": "Maximum number of characters",
+            "key": "maxLength",
+            "view": "decimal"
+          },
+          {
+            "label": "Icon",
+            "description": "Icon to show on the right side of the input",
+            "key": "icon",
+            "view": "textstring"
+          },
+          {
+            "label": "Rows",
+            "description": "The textarea height in rows",
+            "key": "rows",
+            "view": "decimal"
+          },
+          {
+            "label": "Width",
+            "description": "Widht of the input textbox (If only a number is indicated it will assume 'px')",
+            "key": "width",
+            "view": "textstring"
+          },
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+        ],
+        "defaultConfig": {
+          "maxChars": "250",
+          "icon": "glyphicon glyphicon-pencil",
+          "width": "200",
+          "rows": "5"
+        }
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.textarea/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/_upwest.base/dependencies/bootstrap-upwest.css"
+  ]
+}

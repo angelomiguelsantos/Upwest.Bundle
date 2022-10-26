@@ -1,0 +1,37 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.truefalse",
+      "name": "Check box",
+      "group": "Upwest",
+      "icon": "icon-checkbox",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.truefalse/upwest.html"
+      },
+      "prevalues": {
+        "fields": [          
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+        ]
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.truefalse/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/_upwest.base/dependencies/bootstrap-upwest.css",
+    "~/App_Plugins/upwest.bundle/upwest.truefalse/dependencies/truefalse.css"
+  ]
+}
+
+
+
+
+
+         
+          
