@@ -1,0 +1,8 @@
+﻿<div ng-controller="upwest.contents as vm">
+    <div>
+        <select id="{{vm.alias}}">
+            <option value="/">...</option>
+            <option ng-repeat="content in vm.contents" value="{{content.url}}" ng-selected="model.value==content.url">{{content.name}}</option>
+        </select>
+    </div>    
+</div>

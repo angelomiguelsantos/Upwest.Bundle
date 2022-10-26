@@ -1,0 +1,48 @@
+﻿
+
+
+<div ng-controller="upwest.Member as vm" class="bootstrap-upwest" style="{{vm.width}}" id="controller{{vm.alias}}">
+    <div style="height: 25px;" ng-if="loading">
+        <umb-load-indicator></umb-load-indicator>
+    </div>
+    <div id="memberContainer" style="display:none">
+        <div id="loginMessageDiv">
+            <label class="upwest-input-label" for="disableLogin">{{vm.DisableLogin}}</label>
+            <div class="input-group date">
+                <input name="disableLogin" id="disableLogin" onchange="onLoginChange();" class="ios8-switch ios8-switch-lg" type="checkbox" style="visibility:hidden;">
+                <label for='disableLogin'></label>
+            </div>
+            <br />
+            <div id="lblLogin">
+                <label class="upwest-input-label" for="loginClosedMessage">{{vm.Message}}</label>
+                <textarea id="loginClosedMessage" style="width:800px;max-width:100%;" class="form-control richText-editor">{{vm.loginClosedMessage}}</textarea>
+            </div>
+            <br />
+        </div>
+        <div id="registerMessageDiv">
+            <label class="upwest-input-label" for="disableRegistration">{{vm.DisableNewRegistrations}}</label>
+            <div class="input-group date">
+                <input name="disableRegistration" id="disableRegistration" onchange="onRegisterChange();" class="ios8-switch ios8-switch-lg" type="checkbox" style="visibility:hidden;">
+                <label for='disableRegistration'></label>
+            </div>
+            <br />
+            <div id="lblRegister">
+                <label class="upwest-input-label" for="registerClosedMessage">{{vm.Message}}</label>
+                <textarea id="registerClosedMessage" style="width:800px;max-width:100%;"  class="form-control">{{vm.registerClosedMessage}}</textarea>
+            </div>
+        </div>
+        <br />
+        <div id="lblTask">
+            <label class="upwest-input-label" for="startService">{{vm.EnableServiceforinactiveaccounts}}</label>
+            <div class="input-group date">
+                <input name="startService" id="startService" onchange="onServiceChange();" class="ios8-switch ios8-switch-lg" type="checkbox" style="visibility:hidden;">
+                <label for='startService'></label>
+            </div>
+        </div>
+        <br/>
+    </div>
+</div>
+
+
+
+

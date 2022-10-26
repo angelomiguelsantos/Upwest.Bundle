@@ -1,0 +1,7 @@
+﻿<div ng-controller="upwest.memberTypes as vm">
+    <div>
+        <select id="{{vm.alias}}">
+            <option ng-repeat="memberType in vm.memberTypes" value="{{memberType.alias}}" ng-selected="model.value == memberType.alias">{{memberType.name}}</option>
+        </select>
+    </div>
+</div>
