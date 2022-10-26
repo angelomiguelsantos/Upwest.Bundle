@@ -66,6 +66,9 @@ Upwest bundle uses a number of open source projects:
 
 ## Installation
 	dotnet add package Upwest.Bundle 1.0.0
+	Run the project on your localhost machine and it will add to your App_Plugins folder the upwest.bundle directory with all the plugions included in this package
+	Upwest.Bundle will create four fields in all member types "Login Type,Phone number confirmed,Phone number,Language" to control the login flow of your members
+	
 
 
 ## Manual Instalation
