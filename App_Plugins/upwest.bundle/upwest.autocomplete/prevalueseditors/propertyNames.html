@@ -1,0 +1,7 @@
+﻿<div ng-controller="upwest.propertyNames as vm">
+    <div>
+        <select id="{{vm.alias}}">
+            <option ng-repeat="propertyName in propertyNames" value="{{propertyName}}" ng-selected="model.value==propertyName">{{propertyName}}</option>
+        </select>
+    </div>    
+</div>
