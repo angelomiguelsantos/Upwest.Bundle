@@ -80,7 +80,7 @@ Upwest bundle uses a number of open source projects:
 		5-TweetinviAPI 5.0.4
 		6-Twilio 5.80.0
 		7-Google.Apis.Auth 1.57.0
-		8-ASPSMS 0.0.2 (.Net framework and could show you an alert on your references,If you have any trouble please use Twilio Sms service and please open an issue here)
+		8-ASPSMS 0.0.2 (built under .Net framework and could show you an alert on your references,If you have any trouble please use Twilio Sms service and please open an issue here)
 		
 	
 
