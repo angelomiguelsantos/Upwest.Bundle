@@ -172,7 +172,7 @@ If you have any kind of problems in any of this versions please open an issue on
 
 If you have a licence key please send an email directly to angelo.santos@upwest.pt and we contact you directly as soon as possible
 
-Note that all the improvments and sugestions are welcome :) 
+Note that all the improvments and sugestions are welcome.  
 
 ## For production environments
     Upwest keys (not reqired for localhost environment)
@@ -204,7 +204,7 @@ In the example above all the texts have to be inserted in english ("TranslateFro
 
 
 ## Price 
-Purchase package for 120€ / one license per umbraco domain, contempling assistence and updates during a period of a year
+Purchase package for 120€ / one license per umbraco domain, contempling assistence and updates during a period of one year
 
 ## Subscription Renewals
 When your subscription expires, you can renew to receive another year of updates and support. If you choose not to renew, you can continue using the last product version released before your subscription expired.
