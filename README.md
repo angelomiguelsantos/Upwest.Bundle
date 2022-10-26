@@ -70,16 +70,17 @@ Upwest bundle uses a number of open source projects:
 
 ## Manual Instalation
 	-Download zip file from https://github.com/angelomiguelsantos/Upwest.Bundle/ 
-	-Add *.dll to your bin folder
+	-Add *.dll to your references
+	-Add upwest.bundle\*.* to your App_Plugins folder
 	-Add references to 
 		1-Google.Apis.Auth 1.57.0
-		1-Google.Cloud.Translation.V2 2.1.0
-		1-Microsoft.AspNetCore.Authentication.Google 6.0.8
-		1-Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 6.0.10
-		1-TweetinviAPI 5.0.4
-		1-Twilio 5.80.0
-		1-Google.Apis.Auth 1.57.0
-		1-ASPSMS 0.0.2 (.Net framework and could show you an alert on your references,If you have any trouble please use Twilio Sms service and please open an issue here)
+		2-Google.Cloud.Translation.V2 2.1.0
+		3-Microsoft.AspNetCore.Authentication.Google 6.0.8
+		4-Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 6.0.10
+		5-TweetinviAPI 5.0.4
+		6-Twilio 5.80.0
+		7-Google.Apis.Auth 1.57.0
+		8-ASPSMS 0.0.2 (.Net framework and could show you an alert on your references,If you have any trouble please use Twilio Sms service and please open an issue here)
 		
 	
 
