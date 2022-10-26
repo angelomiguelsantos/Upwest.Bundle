@@ -1,0 +1,7 @@
+﻿<div ng-controller="upwest.ContentTypes as vm">
+    <div>
+        <select id="{{vm.alias}}">
+            <option ng-repeat="contentType in contentTypes" value="{{contentType.id}}" ng-selected="model.value==contentType.id">{{contentType.name}}</option>
+        </select>
+    </div>    
+</div>

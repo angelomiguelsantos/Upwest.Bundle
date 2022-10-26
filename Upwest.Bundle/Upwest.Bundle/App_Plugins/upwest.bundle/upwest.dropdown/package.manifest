@@ -1,0 +1,121 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.dropdown",
+      "name": "Dropdown list",
+      "group": "Upwest",
+      "icon": "icon-desk",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Translate dropdown texts",
+            "description": "An item dictionary is created for each dropdown item text (If automatic translation is set to true in appsettings.json, translates also the text)",
+            "key": "translateOptions",
+            "view": "boolean"
+          },
+          {
+            "label": "By data type",
+            "description": "Choose if the elements getted are from a umbraco dropdown datatype",
+            "key": "byDatatype",
+            "view": "boolean"
+          },
+          {
+            "label": "Data type",
+            "description": "Choose one dropdown datatype to get elements",
+            "key": "dataType",
+            "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/dataTypes.html"
+          },
+          {
+            "label": "From database table",
+            "description": "if data is obtnained from a database table",
+            "key": "byTable",
+            "view": "boolean"
+          },
+          {
+            "label": "Table",
+            "description": "The database table to get the data",
+            "key": "table",
+            "view": "textstring"
+          },
+          {
+            "label": "Column",
+            "description": "The column or service field to get the data from",
+            "key": "column",
+            "view": "textstring"
+          },
+          {
+            "label": "Filter",
+            "description": "The query filter to get the data ( ex: yourColumn='someValue' and otherValue=1 or anotherValue like '%yourValue%' )",
+            "key": "filter",
+            "view": "textstring"
+          },
+          {
+            "label": "From umbraco content",
+            "description": "if data is obtnained from the umbraco content",
+            "key": "byContent",
+            "view": "boolean"
+          },
+          {
+            "label": "Umbraco content type",
+            "description": "the content type to get the property to read from",
+            "key": "contentTypeId",
+            "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/contenttypes.html"
+          },
+          {
+            "label": "Umbraco property",
+            "description": "Umbraco property to read from",
+            "key": "contentAlias",
+            "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/propertyNames.html"
+          },
+          {
+            "label": "From umbraco members",
+            "description": "if data is obtnained from the umbraco members",
+            "key": "byMember",
+            "view": "boolean"
+          },
+          {
+            "label": "Umbraco member field",
+            "description": "the property to get the data to read from",
+            "key": "memberField",
+            "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/userFields.html"
+          },
+          {
+            "label": "From umbraco users",
+            "description": "if data is obtnained from the umbraco users",
+            "key": "byUser",
+            "view": "boolean"
+          },
+          {
+            "label": "Umbraco user field",
+            "description": "the property to get the data to read from",
+            "key": "userField",
+            "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/userFields.html"
+          },
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+        ]
+      },
+      "defaultConfig": {
+        "numberOfColumns": "1",
+        "translateOptions": "0"
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/propertyNames.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/contenttypes.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/dataTypes.controlller.js",
+    "~/App_Plugins/upwest.bundle/upwest.dropdown/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/_upwest.base/dependencies/bootstrap-upwest.css",
+    "~/App_Plugins/upwest.bundle/upwest.dropdown/dependencies/dropdown.css"
+  ]
+}

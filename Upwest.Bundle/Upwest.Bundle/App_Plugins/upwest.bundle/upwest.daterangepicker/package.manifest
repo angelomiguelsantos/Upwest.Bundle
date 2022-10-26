@@ -1,0 +1,130 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.daterangepicker",
+      "name": "Date Range Picker",
+      "group": "Upwest",
+      "icon": "icon-calendar-alt",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.daterangepicker/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Single datepicker",
+            "description": "Show only a single calendar to choose one date, instead of a range picker with two calendars. The start and end dates provided to your callback will be the same single date chosen",
+            "key": "singleDatePicker",
+            "view": "boolean"
+          },
+          {
+            "label": "Date format",
+            "description": "Date format",
+            "key": "dateFormat",
+            "view": "~/App_Plugins/upwest.bundle/upwest.daterangepicker/prevalueseditors/dateformats.html"
+          },
+          {
+            "label": "Max Span",
+            "description": "The maximum span between the selected start and end dates. Check off maxSpan in the configuration generator for an example of how to use this. You can provide any object the moment library would let you add to a date.",
+            "key": "maxSpan",
+            "view": "decimal"
+          },
+          {
+            "label": "show dropdowns",
+            "description": "Show year and month select boxes above calendars to jump to a specific month and year.",
+            "key": "showdropdowns",
+            "view": "boolean"
+          },
+          {
+            "label": "Ranges",
+            "description": "Set predefined date ranges the user can select from. Each key is the label for the range, and its value an array with two dates representing the bounds of the range. Click ranges in the configuration generator for examples.",
+            "key": "ranges",
+            "view": "boolean"
+          },
+          {
+            "label": "Show week numbers",
+            "description": "Show localized week numbers at the start of each week on the calendars.",
+            "key": "showweeknumbers",
+            "view": "boolean"
+          },
+          {
+            "label": "Linked Calendars",
+            "description": "When enabled, the two calendars displayed will always be for two sequential months (i.e. January and February), and both will be advanced when clicking the left or right arrows above the calendars. When disabled, the two calendars can be individually advanced and display any month/year",
+            "key": "linkedCalendars",
+            "view": "boolean"
+          },
+          {
+            "label": "Time picker",
+            "description": "Adds select boxes to choose times in addition to dates.",
+            "key": "timePicker",
+            "view": "boolean"
+          },
+          {
+            "label": "Time picker 24 hours",
+            "description": "Use 24-hour instead of 12-hour times, removing the AM/PM selection.",
+            "key": "timePicker24Hours",
+            "view": "boolean"
+          },
+          {
+            "label": "Time picker increment",
+            "description": "Increment of the minutes selection list for times (i.e. 30 to allow only selection of times ending in 0 or 30).",
+            "key": "timePickerIncrement",
+            "view": "decimal"
+          },
+          {
+            "label": "Time picker seconds",
+            "description": "Show seconds in the timePicker.",
+            "key": "timePickerSeconds",
+            "view": "boolean"
+          },
+          {
+            "label": "Auto apply",
+            "description": "Hide the apply and cancel buttons, and automatically apply a new date range as soon as two dates are clicked",
+            "key": "autoApply",
+            "view": "boolean"
+          },
+          {
+            "label": "Always show calendars",
+            "description": "Normally, if you use the ranges option to specify pre-defined date ranges, calendars for choosing a custom date range are not shown until the user clicks Custom Range. When this option is set to true, the calendars for choosing a custom date range are always shown instead.",
+            "key": "alwaysShowCalendars",
+            "view": "boolean"
+          },
+          {
+            "label": "Width",
+            "description": "Widht of the input textbox (If only a number is indicated it will assume 'px')",
+            "key": "width",
+            "view": "textstring"
+          },
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+        ]
+      },
+      "defaultConfig": {
+        "drops": "down",
+        "timePickerIncrement": "1",
+        "minYear": 1100,
+        "maxYear": 2500,        
+        "showweeknumbers": "0",
+        "maxSpan": "150",
+        "opens": "right",        
+        "minDate": "01-01-1000",
+        "maxDate": "31-12-3000",
+        "separator": " - ",
+        "width": "200"
+
+      }
+    }
+  ],
+  "javascript": [    
+    "~/App_Plugins/upwest.bundle/upwest.daterangepicker/dependencies/moment.min.js",
+    "~/App_Plugins/upwest.bundle/upwest.daterangepicker/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/_upwest.base/dependencies/bootstrap-upwest.css",
+    "~/App_Plugins/upwest.bundle/upwest.daterangepicker/dependencies/daterangepicker.css",
+    "~/App_Plugins/upwest.bundle/upwest.daterangepicker/dependencies/upwest.daterangepicker.css"
+  ]
+  }

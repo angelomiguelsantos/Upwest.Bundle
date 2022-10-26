@@ -1,0 +1,18 @@
+﻿<div ng-controller="upwest.checkboxlist as vm" class="bootstrap-upwest">
+    <div class="bootstrap-upwest form-inline" style="text-align:left;padding-left: 10px;">
+        <div class="form-group input-group" id="{{vm.alias}}-container" style="width: 100%;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="icheckbox  col-sm-{{vm.columns}}" ng-repeat="checkbox in checkboxes">
+                        <label>
+                            <input name="{{vm.alias}}" class="i-check {{vm.alias}}" id="chk{{vm.alias}}{{checkbox.id}}" value="{{checkbox.id}}" type="checkbox" ng-click="vm.setCheckBox($event)" /><val class="icheckoptionValues">{{checkbox.text}}</val>                            
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,291 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.member",
+      "name": "Advanced member",
+      "group": "Upwest",
+      "icon": "icon-user",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.member/upwest.html",
+        "valueType": "JSON"
+      },
+      "prevalues": {
+        "fields": [
+          //{
+          //  "label": "Instructions",
+          //  "description": "",
+          //  "key": "instructions",
+          //  "view": "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/instructions.html"
+          //},
+          {
+            "label": "Default member type",
+            "description": "Sets the initial default member type (For best practices, every group or role should be associated with a member type by its alias, that is : a role or group with the name 'Xpto' should have a member type with the alias 'xpto'.If no match its found, every new member created is the default one)",
+            "key": "defaultMemberTypeAlias",
+            "view": "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/memberTypes.html"
+          },
+          {
+            "label": "Exclude tabs",
+            "description": "The tab names to remove form the member form builder (comma separated tab names and case sensitive)",
+            "key": "excludedTabs",
+            "view": "textstring"
+          },
+          {
+            "label": "Username max length",
+            "description": "Set the max number of characters in the username input",
+            "key": "userNameMaxLength",
+            "view": "decimal"
+          },
+          {
+            "label": "Name max length",
+            "description": "Set the max number of characters in the name input",
+            "key": "nameMaxLength",
+            "view": "decimal"
+          },
+          {
+            "label": "Email max length",
+            "description": "Set the max number of characters in the email input",
+            "key": "emailMaxLength",
+            "view": "decimal"
+          },
+          {
+            "label": "Password max length",
+            "description": "Set the max number of characters in the password input",
+            "key": "passwordMaxLength",
+            "view": "decimal"
+          },
+          {
+            "label": "Email input width",
+            "description": "Sets the width of the email input",
+            "key": "emailInputWidth",
+            "view": "textstring"
+          },
+          {
+            "label": "UserName input width",
+            "description": "Sets the width of the username input",
+            "key": "userNameInputWidth",
+            "view": "textstring"
+          },
+          {
+            "label": "Name input width",
+            "description": "Sets the width of the name input",
+            "key": "nameInputWidth",
+            "view": "textstring"
+          },
+          {
+            "label": "Password input width",
+            "description": "Sets the width of the password input",
+            "key": "passwordInputWidth",
+            "view": "textstring"
+          },
+          {
+            "label": "Roles input width",
+            "description": "Sets the width of the roles dropdown input",
+            "key": "rolesInputWidth",
+            "view": "textstring"
+          },
+          {
+            "label": "Show recapctha for new register",
+            "description": "If the register form has google recapthca",
+            "key": "showRegisterRecapctha",
+            "view": "boolean"
+          },
+          {
+            "label": "Show recapctha for get password",
+            "description": "If the get password form has google recapthca",
+            "key": "showGetPasswordRecapctha",
+            "view": "boolean"
+          },
+          {
+            "label": "Show group/role select box",
+            "description": "If its possible to a member chooose group/role to register",
+            "key": "showGroupsSelectBox",
+            "view": "boolean"
+          },
+          {
+            "label": "Email validation",
+            "description": "If a member needs to validate email after registration",
+            "key": "emailValidation",
+            "view": "boolean"
+          },
+          {
+            "label": "Member login timeout",
+            "description": "The days it takes to ask again for login credentials",
+            "key": "loginTimeout",
+            "view": "decimal"
+          },
+          {
+            "label": "Columns",
+            "description": "The number of columns on the member profile form",
+            "key": "columns",
+            "view": "decimal"
+          },
+          {
+            "label": "Requests Expiration time ",
+            "description": "The number of minutes that takes until the link sent in the email is valid",
+            "key": "memoryCacheTime",
+            "view": "decimal"
+          },
+          {
+            "label": "Redirect to",
+            "description": "Where to redirect after login (if left empty returns to home page)",
+            "key": "redirectTo",
+            "view": "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/contents.html"
+          },
+          {
+            "label": "Redirect to on logout",
+            "description": "Where to redirect after logout (if left empty returns to home page)",
+            "key": "redirectToOnLogout",
+            "view": "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/contents.html"
+          },
+          {
+            "label": "Change email",
+            "description": "Members can change the email on the profile page (If login is done by any external provider, email change is not allowed)",
+            "key": "permitMembersToChangeEmail",
+            "view": "boolean"
+          },
+          {
+            "label": "Email templates",
+            "description": "Choose the email templates for emails",
+            "key": "emailTemplate",
+            "view": "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/templates.html"
+          },
+          //{
+          //  "label": "Use wizard mode on first register",
+          //  "description": "If the profile form is on wizard mode on the first login",
+          //  "key": "wizardMode",
+          //  "view": "boolean"
+          //},
+          //{
+          //  "label": "Wizard theme",
+          //  "description": "Choose the wizard theme to apply",
+          //  "key": "wizardTheme",
+          //  "view": "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/wizardtheme.html"
+          //},
+          //{
+          //  "label": "Vertical",
+          //  "description": "Choose the tabs position",
+          //  "key": "vertical",
+          //  "view": "boolean"
+          //},
+          //{
+          //  "label": "Justified",
+          //  "description": "Choose the tabs justification",
+          //  "key": "justified",
+          //  "view": "boolean"
+          //},
+          {
+            "label": "Facebook authentication",
+            "description": "Activates the facebook authentication/registration login button",
+            "key": "facebookAuthentication",
+            "view": "boolean"
+          },
+          {
+            "label": "Google sign in",
+            "description": "Activates the google authentication/registration/ sign in button",
+            "key": "googleSignIn",
+            "view": "boolean"
+          },
+          {
+            "label": "Twitter authentication",
+            "description": "Activates the Twitter authentication/registration/ loggin in button.(Do not forget to add 'Get email from users' option in your twitter application and the callback url is [YOURDOMAIN]/umbraco/api/TwitterLoginButton/Callback)",
+            "key": "twitterAuthentication",
+            "view": "boolean"
+          },
+          {
+            "label": "Linkedin authentication",
+            "description": "Activates the Linkedin authentication/registration/ loggin in button.(Do not forget to add '[YOURDOMAIN]/umbraco/api/LinkedinLoginButton/Callback' callback url to your Linkedin application)",
+            "key": "linkedinAuthentication",
+            "view": "boolean"
+          },
+          {
+            "label": "Two factor authentication",
+            "description": "Activates two factor authentication",
+            "key": "twoFactorAuthentication",
+            "view": "boolean"
+          },
+          {
+            "label": "Two factor authentication expiration days",
+            "description": "The days it takes to ask again for two factor authentication credentials",
+            "key": "twoFactorAuthenticationExpireDays",
+            "view": "decimal"
+          },
+          {
+            "label": "Use options on property settings",
+            "description": "Controls the inputs in member form builder to hide/show fields or set readonly state",
+            "key": "useOptionsOnDataTypes",
+            "view": "boolean"
+          },
+          {
+            "label": "Therms and conditions page",
+            "description": "Link for the 'Therms and conditions' page",
+            "key": "thermsConditionsPage",
+            "view": "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/contents.html"
+          },
+          {
+            "label": "Email after successfully registration",
+            "description": "Sends a second email after successfully registration",
+            "key": "sendEmailAfterReg",
+            "view": "boolean"
+          },
+          {
+            "label": "Enable service for inactive accounts",
+            "description": "Activate/deactivates the service for inactive accounts after a period of time",
+            "key": "enableServiceforInactiveAccounts",
+            "view": "boolean"
+          },
+          {
+            "label": "Warning days",
+            "description": "Warning days to send an email to a member before deleting his inactive account",
+            "key": "warningDays",
+            "view": "decimal"
+          },
+          {
+            "label": "Check for inactive accounts",
+            "description": "The periodicity in days to check for inactive accounts and delete it (Every deleted member is stored in the database table 'Upwest_DeletedMembers')",
+            "key": "checkForInactiveAccountsDays",
+            "view": "decimal"
+          }
+        ]
+      },
+      "defaultConfig": {
+        "columns": "2",
+        "tabsTheme": "basic",
+        "nameInputLenght": "250",
+        "emailMaxLength": "250",
+        "userNameMaxLength": "250",
+        "passwordMaxLength": "250",
+        "nameMaxLength": "250",
+        "emailTemplate": "default.html",
+        "userInputLenght": "250",
+        "checkBoxColumns": "2",
+        "radioBUttonColumns": "2",
+        "permitMembersToChangeEmail": "1",
+        "defaultMemberTypeAlias": "member",
+        "userNameInputWidth": "100%",
+        "nameInputWidth": "100%",
+        "emailInputWidth": "100%",
+        "passwordInputWidth": "100%",
+        "rolesInputWidth": "100%",
+        "memoryCacheTime": 5,
+        "twoFactorAuthenticationExpireDays": 5,
+        "loginTimeout": 30,
+        "checkForInactiveAccountsDays": 120,
+        "warningDays": 90,
+        "emailValidation": 1
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/contents.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/memberTypes.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/roles.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.member/prevalueseditors/templates.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.member/dependencies/trumbowyg.min.js",
+    "~/App_Plugins/upwest.bundle/upwest.member/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/upwest.member/dependencies/font-awesome.css",
+    "~/App_Plugins/upwest.bundle/upwest.member/dependencies/trumbowyg.min.css",
+    "~/App_Plugins/upwest.bundle/upwest.member/dependencies/upwest.member.css"
+  ]
+}

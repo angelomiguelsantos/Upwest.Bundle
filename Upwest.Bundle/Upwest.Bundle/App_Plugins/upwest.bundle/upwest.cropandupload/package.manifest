@@ -1,0 +1,41 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.cropandupload",
+      "name": "Crop and Upload",
+      "group": "Upwest",
+      "icon": "icon-cloud-upload",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.cropandupload/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Set ratio",
+            "description": "Ratio of cropped image",
+            "key": "setRatio",
+            "view": "decimal"
+          },
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+        ]
+      },
+      "defaultConfig": {
+        "setRatio": 1
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.cropandupload/dependencies/ijaboCropTool.min.js",    
+    "~/App_Plugins/upwest.bundle/upwest.cropandupload/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/upwest.cropandupload/dependencies/ijaboCropTool.min.css",
+    "~/App_Plugins/upwest.bundle/upwest.cropandupload/dependencies/upwest.upload.css"
+
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.autocomplete",
+      "name": "Autocomplete",
+      "group": "Upwest",
+      "icon": "icon-autofill",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "From database table",
+            "description": "if data is obtnained from a database table",
+            "key": "byTable",
+            "view": "boolean"
+          },
+          {
+            "label": "Table",
+            "description": "The database table to get the data",
+            "key": "table",
+            "view": "textstring"
+          },
+          {
+            "label": "Column",
+            "description": "The column or service field to get the data from",
+            "key": "column",
+            "view": "textstring"
+          },
+          {
+            "label": "From umbraco content",
+            "description": "if data is obtained from the umbraco content",
+            "key": "byContent",
+            "view": "boolean"
+          },
+          {
+            "label": "Umbraco content type",
+            "description": "the content type to get the property to read from",
+            "key": "contentTypeId",
+            "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/contenttypes.html"
+          },
+          {
+            "label": "Umbraco property",
+            "description": "Umbraco property to read from",
+            "key": "contentAlias",
+            "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/propertyNames.html"
+          },
+          {
+            "label": "From umbraco members",
+            "description": "if data is obtained from the umbraco members",
+            "key": "byMember",
+            "view": "boolean"
+          },
+          {
+            "label": "Umbraco member field",
+            "description": "the property to get the data to read from",
+            "key": "memberField",
+            "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/userFields.html"
+          },
+          {
+            "label": "From umbraco users",
+            "description": "if data is obtnained from the umbraco users",
+            "key": "byUser",
+            "view": "boolean"
+          },
+          {
+            "label": "Umbraco user field",
+            "description": "the property to get the data to read from",
+            "key": "userField",
+            "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/userFields.html"
+          },
+          {
+            "label": "Filter",
+            "description": "The query filter to get the data ( ex: yourColumn='someValue' and otherValue=1 or anotherValue like '%yourValue%' )",
+            "key": "filter",
+            "view": "textstring"
+          },
+          {
+            "label": "Filter type",
+            "description": "The type of filter top get the data",
+            "key": "filterType",
+            "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/filtertype.html"
+          },
+          {
+            "label": "Minimum lenght",
+            "description": "The minimum input characters lenght before asking data",
+            "key": "minLength",
+            "view": "decimal"
+          },
+          {
+            "label": "Width",
+            "description": "Widht of the input textbox (If only a number is indicated it will assume 'px')",
+            "key": "width",
+            "view": "textstring"
+          }
+          //,
+          //{
+          //  "label": "Insert in register form",
+          //  "description": "Inserts this input in the initial register form (before member registration)",
+          //  "key": "insertInRegisterForm",
+          //  "view": "boolean"
+          //}
+        ]
+      },
+      "defaultConfig": {
+        "column": "Name",
+        "byContent": "1",
+        "parentId": "-1",
+        "filterType": "startswith",
+        "placeholder": "select",
+        "minLength": "3",
+        "width": "200"        
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/propertyNames.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/contenttypes.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.autocomplete/dependencies/kendo.web.min.js",
+    "~/App_Plugins/upwest.bundle/upwest.autocomplete/dependencies/jquery-migrate-3.0.0.min.js",
+    "~/App_Plugins/upwest.bundle/upwest.autocomplete/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/upwest.autocomplete/dependencies/kendo.common.min.css",
+    "~/App_Plugins/upwest.bundle/upwest.autocomplete/dependencies/kendo.bootstrap.min.css",
+    "~/App_Plugins/upwest.bundle/upwest.autocomplete/dependencies/upwest.autocomplete.css"
+  ]
+}

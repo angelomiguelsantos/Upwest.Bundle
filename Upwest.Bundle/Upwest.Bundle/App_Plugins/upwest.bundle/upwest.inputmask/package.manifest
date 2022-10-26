@@ -1,0 +1,136 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.inputmask",
+      "name": "Input Mask",
+      "group": "Upwest",
+      "icon": "icon-checkbox-dotted",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.inputmask/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Mask",
+            "description": "Mask format",
+            "key": "mask",
+            "view": "textstring"
+          },
+          {
+            "label": "Phone number",
+            "description": "If the input is for a phone number",
+            "key": "phone",
+            "view": "boolean"
+          },
+          {
+            "label": "Mobile number",
+            "description": "If the input is for a mobile number",
+            "key": "mobile",
+            "view": "boolean"
+          },
+          {
+            "label": "Date",
+            "description": "Date",
+            "key": "date",
+            "view": "boolean"
+          },
+          {
+            "label": "Date format",
+            "description": "Mask date format",
+            "key": "dateFormat",
+            "view": "textstring"
+          },
+          {
+            "label": "Date separator",
+            "description": "the character that separates day,month,year",
+            "key": "dateSeparator",
+            "view": "textstring"
+          },
+          {
+            "label": "e-mail",
+            "description": "if the input is an email",
+            "key": "email",
+            "view": "boolean"
+          },
+          {
+            "label": "Currency",
+            "description": "if input is currency",
+            "key": "currency",
+            "view": "boolean"
+          },
+          {
+            "label": "Group Separator",
+            "description": "separator of the non decimal part of a number  (if not set gets the regional settings from the server)",
+            "key": "currencygroupseparator",
+            "view": "textstring"
+          },
+          {
+            "label": "Decimal separator",
+            "description": "separator of the decimal part of a number  (if not set gets the regional settings from the server)",
+            "key": "currencydecimalseparator",
+            "view": "textstring"
+          },
+          {
+            "label": "Symbol prefix",
+            "description": "Gets the prefix symbol for the currency or decimal (if not set, gets the regional settings from the server)",
+            "key": "symbolPrefix",
+            "view": "textstring"
+          },
+          {
+            "label": "Symbol suffix",
+            "description": "Gets the suffix symbol for the currency or decimal (if not set, gets the regional settings from the server)",
+            "key": "symbolSuffix",
+            "view": "textstring"
+          },
+          {
+            "label": "Decimal places",
+            "description": "Sets the number of decimal places",
+            "key": "decimalPlaces",
+            "view": "decimal"
+          },
+          {
+            "label": "Number",
+            "description": "if input is numeric (gets the regional settings from the server)",
+            "key": "number",
+            "view": "boolean"
+          },
+          {
+            "label": "Allow zero",
+            "description": "if input permits 0",
+            "key": "allowZero",
+            "view": "boolean"
+          },
+          {
+            "label": "Clear on not completed",
+            "description": "Clears the value if the input is not as the input mask requested",
+            "key": "clearincomplete",
+            "view": "boolean"
+          },
+          {
+            "label": "Width",
+            "description": "Widht of the input textbox (If only a number is indicated it will assume 'px')",
+            "key": "width",
+            "view": "textstring"
+          },
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+        ],
+        "defaultConfig": {
+          "decimalPlaces": "2"
+        }
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.inputmask/upwest.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.inputmask/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/_upwest.base/dependencies/bootstrap-upwest.css",
+    "~/App_Plugins/upwest.bundle/upwest.inputmask/dependencies/upwest.inputmask.css"
+  ]
+}

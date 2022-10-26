@@ -1,0 +1,49 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "upwest.timepicker",
+      "name": "Time picker",
+      "group": "Upwest",
+      "icon": "icon-time",
+      "editor": {
+        "view": "~/App_Plugins/upwest.bundle/upwest.timepicker/upwest.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Format",
+            "description": "Specifies the format, which is used to format the value of the timepicker displayed in the input.\r\nM - Minutes; no leading zero for single - digit minutes.\r\nMM - Minutes; leading zero for single - digit minutes.\r\nH - The hour, using a 24 - hour clock from 0 to 23; no leading zero for single - digit hours.\r\nHH - The hour, using a 24 - hour clock from 0 to 23; leading zero for single - digit hours.\r\nh - The hour, using a 12 - hour clock from 1 to 12; no leading zero for single - digit hours.\r\nhh - The hour, using a 12 - hour clock from 1 to 12; leading zero for single - digit hours\r\ntt - The AM / PM designator; lowercase.\r\nTT - The AM / PM designator; upercase.",
+            "key": "format",
+            "view": "textstring"
+          },
+          {
+            "label": "Short time",
+            "description": "Display 12 hours AM",
+            "key": "shortTime",
+            "view": "boolean"
+          },
+          {
+            "label": "Insert in register form",
+            "description": "Inserts this input in the initial register form (before member registration)",
+            "key": "insertInRegisterForm",
+            "view": "boolean"
+          }
+        ]
+      },
+      "defaultConfig": {
+        "format": "HH:MM",
+        "widthIsPercentage": "0"
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/upwest.bundle/upwest.timepicker/dependencies/core.min.js",
+    "~/App_Plugins/upwest.bundle/upwest.timepicker/dependencies/timepicker.min.js",
+    "~/App_Plugins/upwest.bundle/upwest.timepicker/upwest.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/upwest.bundle/_upwest.base/dependencies/bootstrap-upwest.css",
+    "~/App_Plugins/upwest.bundle/upwest.timepicker/dependencies/core.css",
+    "~/App_Plugins/upwest.bundle/upwest.timepicker/dependencies/timepicker.min.css"
+  ]
+}
