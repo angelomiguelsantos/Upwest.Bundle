@@ -87,7 +87,7 @@ Upwest bundle uses a number of open source projects:
 
 
 
-*    Ask for your licence.lic file that contains your licence key to angelo.santos@upwest.pt and put it in your 'App_Plugins/upwest.bundle/_upwest.base' directory `
+*    Ask for your license.lic file that contains your license key to angelo.santos@upwest.pt and put it in your 'App_Plugins/upwest.bundle/_upwest.base' directory `
 *    You can test Upwest.Bundle on your localhost environment without any restrictions
 
 
@@ -188,7 +188,7 @@ This package was tested in Umbraco 9.x.x and 10.x.x so it will work on these Umb
 If you have any kind of problems in any of this versions please open an issue on https://github.com/angelomiguelsantos/Upwest.Bundle/issues.
 
 
-If you have a licence key please send an email directly to angelo.santos@upwest.pt and we contact you directly as soon as possible
+If you have a license key please send an email directly to angelo.santos@upwest.pt and we contact you directly as soon as possible
 
 Note that all the improvments and sugestions are welcome.  
 
