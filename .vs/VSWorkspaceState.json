@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\App_Plugins",
+    "\\App_Plugins\\upwest.bundle",
+    "\\App_Plugins\\upwest.bundle\\_upwest.base"
   ],
+  "SelectedNode": "\\App_Plugins\\upwest.bundle\\_upwest.base\\fonts",
   "PreviewInSolutionExplorer": false
 }
