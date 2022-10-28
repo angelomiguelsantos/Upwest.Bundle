@@ -65,7 +65,7 @@ Upwest bundle uses a number of open source projects:
 - Azure Translation services - A cloud-based machine translation service supporting multiple languages. Translator is used to build applications, websites, tools, or any solution requiring multilanguage support. Azure Translator Text API is a cloud-based machine translation service supporting multiple languages
 
 ## Installation
-	dotnet add package Upwest.Bundle 1.0.0
+	dotnet add package Upwest.Bundle
 	Run the project on your localhost machine and it will add to your App_Plugins folder the upwest.bundle directory with all the plugions included in this package
 	Upwest.Bundle will create four fields in all member types "Login Type,Phone number confirmed,Phone number,Language" to control the login flow of your members
 	
