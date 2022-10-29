@@ -29,6 +29,7 @@
 
         $("#lblRegister").hide();
         $("#disableRegistration").prop("checked", false);
+        $(".enableService").hide();        
 
         var value = $scope.model.value;
         var trans;
@@ -90,9 +91,10 @@
                 $("#lblRegister").show();
                 $("#disableRegistration").prop("checked", true);
             }
-
             if (value.startService) {                
                 $("#startService").prop("checked", true);
+                $("#faCog").show();
+                $(".enableService").addClass("fa-spin");
             }
 
             vm.disableLogin = value.disableLogin ? "checked" : "";
@@ -104,6 +106,8 @@
         }
         else {
             vm.serviceIsStarted = "";
+            $("#faCog").hide();
+            $(".enableService").removeClass("fa-spin");
         }
 
         $http({
@@ -171,10 +175,12 @@
                         cache: false
                     }).then(function success(data) {
                         if (data.data.startService) {
-                            notificationsService.success("Success", "Member service started");
+                            notificationsService.success("Success", "Member service started");                            
+                            $(".enableService").addClass("fa-spin");
                         }
                         else {
-                            notificationsService.success("Success", "Member service stopped");
+                            notificationsService.success("Success", "Member service stopped");                            
+                            $(".enableService").removeClass("fa-spin");
                         }
                     }).catch(function (data) {
                         notificationsService.error("Error", "Member service did not start.Please consult logs");
@@ -199,7 +205,13 @@ function onLoginChange() {
     }
 }
 
-function onServiceChange() {
+function onServiceChange() {    
+    if ($("#startService").is(":checked")) {
+        $("#faCog").fadeIn();
+    }
+    else {
+        $("#faCog").hide();
+    }
     isServiceDirty = true;
 }
 
