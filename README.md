@@ -162,7 +162,7 @@ Dont´t forget to add your email settings as well.
 
 * Please watch https://www.youtube.com/watch?v=fF5elq3Ed4g for instalation
 * Please watch  https://www.youtube.com/watch?v=O6YjmOjXMA8 for translation
-* Please watch  https://www.youtube.com/watch?v=8Y600EIa33Q for the plugin
+* Please watch  https://www.youtube.com/watch?v=8Y600EIa33Q for plugins
 
 the package will automatically add this snippet to your default template 
 ```html
