@@ -1,4 +1,4 @@
-﻿Software License Agreement
+Software License Agreement
 THIS AGREEMENT is entered into as of 30-09-2022, between Upwest , in the name of  Ângelo Miguel Simões Nogueira dos Santos, with office at Mafra Bussiness Av.Primeiro de Maio 1, 2640-455 Mafra Portugal and you (either an individual or a single entity)
 
 WHEREAS, Licensee wishes to license software for the purpose of an umbraco package andUpwest desires to license this software to licensee.
@@ -7,26 +7,26 @@ NOW THEREFORE, the parties hereto agree as follows:
 
 1. GRANT OF LICENSE
 This UMBRACO PACKAGE is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. This UMBRACO PACKAGE is licensed, not sold.
-
-Subject to the terms and conditions of the Agreement, Upwest grants to Licensee a non-exclusive, non-transferable license to use the software identified for the purpose of an umbraco package. Licensee may use the Licensed Programs in executable format for its own use, and may only use the licensed programs or incorporate them into their own Umbraco domain (1 license per domain) . Licensee may not, however, transfer or sublicense the Licensed Programs to any third party, in whole or in part, in any form, whether modified or unmodified.
+Subject to the terms and conditions of the Agreement, Upwest grants to Licensee a non-exclusive, non-transferable license to use the software identified for the purpose of an umbraco package. 
+Licensee may use the Licensed Programs in executable format for its own use, and may only use the licensed programs or incorporate them into their own Umbraco domain (1 license per domain) . 
+Licensee may not, however, transfer or sublicense the Licensed Programs to any third party, in whole or in part, in any form, whether modified or unmodified.
 Licensee however, can use this software for testing proposals in any localhost environment with full functionality
 
 2. CONSIDERATION TO Upwest
-a. Licensee shall pay, upon delivery of the Licensed Programs, the license fees set forth in  this document.
-b. License fees do not include any shipping, duties, bank fees, sales, use, excise or similar taxes due.
-If Licensor is required to pay any such amounts, Licensee shall reimburse Licensor in full.
+a. Licensee shall pay before delivery of the Licensed key, the license fees set forth in  exhibit A attached hereto.
+b. License fees do not include any shipping, duties, bank fees, sales, use, excise or similar taxes due. If Licensor is required to pay any such amounts, Licensee shall reimburse Licensor in full.
 
 3. COPIES
-Licensee may make copies of the Licensed Program in executable code form as necessary for use by Licensee and for backup or archive purposes. Licensee agrees to maintain records of the location and use of each copy, in whole or in part, of the Licensed Programs. Each Licensed Program is copyrighted but unpublished by Upwest. Licensee agrees to reproduce and apply the copyright notice and proprietary notice of Upwest to all copies made hereunder, in whole or in part and in any form, of Licensed Programs.
+Licensee may make copies of the Licensed Program in executable code form as necessary for use by Licensee and for backup or archive purposes. Licensee agrees to maintain records of the location and use of each copy, in whole or in part, of the Licensed Programs. 
+Each Licensed Program is copyrighted but unpublished by Upwest. 
+Licensee agrees to reproduce and apply the copyright notice and proprietary notice of Upwest to all copies made hereunder, in whole or in part and in any form, of Licensed Programs.
 
 4. OWNERSHIP
 The original and any copies of the Licensed Programs, made by Licensee, including translations, compilations, partial copies, modifications, and updates, are the property of Upwest.
 
-5. PRICES AND TERMS OF PAYMENT
-(i)The prices, rates and types in force from time to time can be found on Umbraco's website and may be changed at the end of each calendar quarter on one month's notice. All prices exclude VAT which shall be applied at the prevailing rate.
-
-(ii)The terms of payment are net 8 days after invoice date unless order is placed and paid by paypal.
-
+4. PRICES AND TERMS OF PAYMENT
+(i)The prices, rates and types in force from time to time can be found also on Umbraco's website and may be changed at the end of each calendar quarter on one month's notice. All prices exclude VAT which shall be applied at the prevailing rate.
+(ii)All Upwest.Bundle requested licenses are processed by paypal to the email account angelo.santos@upwest.pt for the price of 120€ (excluding VAT) for one year subscription.
 (iii)The Customer accepts that invoices and reminders sent by email to the email address provided by the Customer shall be deemed delivered when sent by Upwest.
 
 6. PROPRIETARY RIGHTS
@@ -39,19 +39,25 @@ The license granted hereunder shall continue unless and until terminated pursuan
 Upwest may terminate this Agreement if Licensee is in default of any of the terms and conditions of this Agreement and fails to correct such default within ten (10) days after written notice thereof from Upwest.
 
 9. TERMINATION CERTIFICATE
-In the event of termination, Licensee will immediately discontinue use of the Licensed Programs. Within one (1) month after termination of this Agreement, Licensee will furnish to Upwest a certificate which certifies with respect to each of the Licensed Programs that,through its best effort and to the best of its knowledge, the original and all copies, in whole or in part and in any form, of each of the Licensed Programs have been destroyed. The provisions of Sections 4, 5, 8, 11, and 13 hereof shall survive any termination of this Agreement.
+In the event of termination, Licensee will immediately discontinue use of the Licensed Programs. Within one (1) month after termination of this Agreement, Licensee will furnish to Upwest a certificate which certifies with respect to each of the Licensed Programs that,
+through its best effort and to the best of its knowledge, the original and all copies, in whole or in part and in any form, of each of the Licensed Programs have been destroyed. 
+The provisions of Sections 4, 5, 8, 11, and 13 hereof shall survive any termination of this Agreement.
 
 10. MAINTENANCE SUPPORT
 Licensor will provide to Licensee the following support with respect to the Software:
 
-(i) If during the 1st year of this Agreement, Licensee notifies Licensor of a substantial program error respecting the Software, or Licensor has reason to believe that error exists in the Software and so notifies Licensee, Licensor shall at its expense verify and attempt to correct such error within thirty (30) working days after the date of notification.If Licensee is not satisfied with the correction, then Licensee may terminate this Agreement, but without refund of any amount paid to Licensor or release of any amounts due Licensor at the time of termination.(ii) In the case that Licensee has technical questions in the use of the Software during the 1st year of this Agreement, Licensee may submit those questions to Licensor.
+(i) If during the 1st year of this Agreement, Licensee notifies Licensor of a substantial program error respecting the Software, or Licensor has reason to believe that error exists in the Software and so notifies Licensee, 
+Licensor shall at its expense verify and attempt to correct such error within thirty (30) working days after the date of notification.If Licensee is not satisfied with the correction, 
+then Licensee may terminate this Agreement, but without refund of any amount paid to Licensor or release of any amounts due Licensor at the time of termination.
+
+(ii) In the case that Licensee has technical questions in the use of the Software during the 1st year of this Agreement, Licensee may submit those questions to Licensor.
 Licensor shall provide consulting to answer such questions without charge to Licensee up to a maximum of sixteen (16) hours for each licensed program.
 
-(ii) If License desires to continue the Software support specified in this section, Licensee shall pay to Licensor the maintenance fee(s).
+(iii) If License desires to continue the Software support specified in this section, Licensee shall pay to Licensor the maintenance fee(s) set forth in Exhibit A.
 
-(iii) If Licensee desires to renew its license for a period of one year.
+(iv) If Licensee desires to renew its license for a period of one year.
 
-(iv)ALL THE PACKAGES INCLUDED IN UPWEST.BUNDLE WERE BUILT WITH MAXIMUM CSS ISOLATION BUT CAN COLIDE WITH YOUR OWN CSS´S.IT IS NOT UPWEST RESPONSABLILTY TO ADJUST ANY KIND OF DESIGN OR CSS APART FORM THE ONES PROVIDED
+(v) ALL THE PACKAGES INCLUDED IN UPWEST.BUNDLE WERE BUILT WITH MAXIMUM CSS ISOLATION BUT CAN COLIDE WITH YOUR OWN CSS´S.IT IS NOT UPWEST RESPONSABLILTY TO ADJUST ANY KIND OF DESIGN OR CSS APART FORM THE ONES PROVIDED  
 
 11. DELIVERY OF LICENSED PROGRAMS
 Upwest shall use its best efforts to deliver the Licensed Programs promptly after receipt of the purchase order and export license (if required)
@@ -66,8 +72,8 @@ Upwest will defend at its own expense any action brought against Licensee to the
 Upwest'S LIABILITY TO LICENSEE UNDER ANY PROVISIONS OF THIS AGREEMENT FOR DAMAGES FINALLY AWARDED SHALL BE LIMITED TO THE AMOUNTS ACTUALLY PAID HEREUNDER BY LICENSEE TO Upwest. IN NO EVENT SHALL Upwest BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOSS OF USE, LOSS OF PROFITS OR INTERRUPTION OF BUSINESS, HOWEVER CAUSED OR ON ANY THEORY OF LIABILITY.
 
 15. NOTICES
-All notices in connection with this Agreement shall be sent by email to angelo.santos@upwest.pt.
-For purposes of this Agreement, a notice shall be deemed effective upon email delivery to the party five days after the sent email.
+All notices in connection with this Agreement shall be in writing and may be given by certified, registered, or first class mail or personally delivered at the address set forth on the front page.
+For purposes of this Agreement, a notice shall be deemed effective upon personal delivery to the party or if by mail five days after proper deposit in a mail box.
 
 16. SUCCESSORS
 This Agreement will be binding upon and will inure to the benefit of the parties hereto and their respective representatives, successors and assigns except as otherwise provided herein.
