@@ -25,15 +25,12 @@
                             table: $scope.model.config.table,
                             column: $scope.model.config.column,
                             filterType: $scope.model.config.filterType,
-                            byContent: $scope.model.config.byContent == 1 ? true : false,
-                            byMember: $scope.model.config.byMember == 1 ? true : false,
-                            byUser: $scope.model.config.byUser == 1 ? true : false,
-                            byTable: $scope.model.config.byTable == 1 ? true : false,
                             contentTypeId: $scope.model.config.contentTypeId,
                             contentAlias: $scope.model.config.contentAlias,
                             memberField: $scope.model.config.memberField,
                             userField: $scope.model.config.userField,
-                            separator: ","
+                            separator: ",",
+                            dataOptions: $scope.model.config.dataOptions
                         }
                     }
                 },

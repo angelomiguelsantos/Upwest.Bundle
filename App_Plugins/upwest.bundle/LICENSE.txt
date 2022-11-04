@@ -25,8 +25,8 @@ Licensee agrees to reproduce and apply the copyright notice and proprietary noti
 The original and any copies of the Licensed Programs, made by Licensee, including translations, compilations, partial copies, modifications, and updates, are the property of Upwest.
 
 4. PRICES AND TERMS OF PAYMENT
-(i)The prices, rates and types in force from time to time can be found on Umbraco's website and may be changed at the end of each calendar quarter on one month's notice. All prices exclude VAT which shall be applied at the prevailing rate.
-(ii)The terms of payment are net 8 days after invoice date unless order is placed and paid by paypal to email account angelomiguelsantos@gmail.com.
+(i)The prices, rates and types in force from time to time can be found also on Umbraco's website and may be changed at the end of each calendar quarter on one month's notice. All prices exclude VAT which shall be applied at the prevailing rate.
+(ii)All Upwest.Bundle requested licenses are processed by paypal to the email account angelo.santos@upwest.pt for the price of 120€ (excluding VAT) for one year subscription.
 (iii)The Customer accepts that invoices and reminders sent by email to the email address provided by the Customer shall be deemed delivered when sent by Upwest.
 
 6. PROPRIETARY RIGHTS

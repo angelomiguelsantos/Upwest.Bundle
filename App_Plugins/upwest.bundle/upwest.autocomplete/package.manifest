@@ -9,12 +9,12 @@
         "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/upwest.html"
       },
       "prevalues": {
-        "fields": [
+        "fields": [          
           {
-            "label": "From database table",
-            "description": "if data is obtnained from a database table",
-            "key": "byTable",
-            "view": "boolean"
+            "label": "Item options source",
+            "description": "Where to get items from",
+            "key": "dataOptions",
+            "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/dataOptions.html"
           },
           {
             "label": "Table",
@@ -29,12 +29,6 @@
             "view": "textstring"
           },
           {
-            "label": "From umbraco content",
-            "description": "if data is obtained from the umbraco content",
-            "key": "byContent",
-            "view": "boolean"
-          },
-          {
             "label": "Umbraco content type",
             "description": "the content type to get the property to read from",
             "key": "contentTypeId",
@@ -47,22 +41,10 @@
             "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/propertyNames.html"
           },
           {
-            "label": "From umbraco members",
-            "description": "if data is obtained from the umbraco members",
-            "key": "byMember",
-            "view": "boolean"
-          },
-          {
             "label": "Umbraco member field",
             "description": "the property to get the data to read from",
             "key": "memberField",
             "view": "~/App_Plugins/upwest.bundle/upwest.autocomplete/prevalueseditors/userFields.html"
-          },
-          {
-            "label": "From umbraco users",
-            "description": "if data is obtnained from the umbraco users",
-            "key": "byUser",
-            "view": "boolean"
           },
           {
             "label": "Umbraco user field",
@@ -72,7 +54,7 @@
           },
           {
             "label": "Filter",
-            "description": "The query filter to get the data ( ex: yourColumn='someValue' and otherValue=1 or anotherValue like '%yourValue%' )",
+            "description": "The query filter to get the data (ex: yourColumn='someValue' and otherValue=1 or anotherValue like '%yourValue%' )",
             "key": "filter",
             "view": "textstring"
           },

@@ -17,16 +17,22 @@
             "view": "boolean"
           },
           {
+            "label": "Translate from",
+            "description": "Sets the original language of items",
+            "key": "translateFrom",
+            "view": "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/languages.html"
+          },
+          {
+            "label": "Item options source",
+            "description": "Where to get items from",
+            "key": "dataOptions",
+            "view": "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/dataOptions.html"
+          },
+          {
             "label": "Columns",
             "description": "The number of columns on checkbox options",
             "key": "numberOfColumns",
             "view": "decimal"
-          },
-          {
-            "label": "By data type",
-            "description": "Choose if the elements getted are from a umbraco checkboxlist datatype",
-            "key": "byDatatype",
-            "view": "boolean"
           },
           {
             "label": "Data type",
@@ -35,34 +41,22 @@
             "view": "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/dataTypes.html"
           },
           {
-            "label": "From database table",
-            "description": "if data is obtnained from a database table",
-            "key": "byTable",
-            "view": "boolean"
-          },
-          {
             "label": "Table",
             "description": "The database table to get the data",
             "key": "table",
             "view": "textstring"
           },
           {
-            "label": "Column",
-            "description": "The column or service field to get the data from",
+            "label": "Database column",
+            "description": "The database column to get the data from",
             "key": "column",
             "view": "textstring"
           },
           {
             "label": "Filter",
-            "description": "The query filter to get the data ( ex: yourColumn='someValue' and otherValue=1 or anotherValue like '%yourValue%' )",
+            "description": "The query filter to get the data (ex: yourColumn='someValue' and otherValue=1 or anotherValue like '%yourValue%' )",
             "key": "filter",
             "view": "textstring"
-          },
-          {
-            "label": "From umbraco content",
-            "description": "if data is obtnained from the umbraco content",
-            "key": "byContent",
-            "view": "boolean"
           },
           {
             "label": "Umbraco content type",
@@ -77,22 +71,10 @@
             "view": "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/propertyNames.html"
           },
           {
-            "label": "From umbraco members",
-            "description": "if data is obtnained from the umbraco members",
-            "key": "byMember",
-            "view": "boolean"
-          },
-          {
             "label": "Umbraco member field",
             "description": "the property to get the data to read from",
             "key": "memberField",
             "view": "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/userFields.html"
-          },
-          {
-            "label": "From umbraco users",
-            "description": "if data is obtnained from the umbraco users",
-            "key": "byUser",
-            "view": "boolean"
           },
           {
             "label": "Umbraco user field",
@@ -118,7 +100,8 @@
     "~/App_Plugins/upwest.bundle/upwest.checkboxlist/dependencies/icheck.js",
     "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/propertyNames.controller.js",
     "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/contenttypes.controller.js",
-    "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/dataTypes.controlller.js",
+    "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/dataTypes.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.checkboxlist/prevalueseditors/languages.controller.js",
     "~/App_Plugins/upwest.bundle/upwest.checkboxlist/upwest.controller.js"
   ],
   "css": [

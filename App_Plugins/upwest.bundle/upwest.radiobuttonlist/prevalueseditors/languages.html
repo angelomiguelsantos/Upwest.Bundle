@@ -1,0 +1,7 @@
+﻿<div ng-controller="upwest.languages as vm">
+    <div>
+        <select id="{{vm.alias}}">            
+            <option ng-repeat="language in languages" value="{{language.language}}" ng-selected="model.value==language.language">{{language.name}}</option>
+        </select>
+    </div>
+</div>

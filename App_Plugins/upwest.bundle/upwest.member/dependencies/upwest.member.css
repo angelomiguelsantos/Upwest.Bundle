@@ -555,6 +555,7 @@ input[type="checkbox"].ios8-switch-lg {
     box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
     border-radius: 3px;
     z-index:1000;
+    opacity:0.9;
 }
 
 

@@ -11,28 +11,34 @@
       "prevalues": {
         "fields": [
           {
-            "label": "Translate dropdown texts",
-            "description": "An item dictionary is created for each dropdown item text (If automatic translation is set to true in appsettings.json, translates also the text)",
+            "label": "Translate radio button texts",
+            "description": "An item dictionary is created for each radio button text (If automatic translation is set to true in appsettings.json, translates also the text)",
             "key": "translateOptions",
             "view": "boolean"
           },
           {
-            "label": "By data type",
-            "description": "Choose if the elements getted are from a umbraco dropdown datatype",
-            "key": "byDatatype",
-            "view": "boolean"
+            "label": "Translate from",
+            "description": "Sets the original language of items",
+            "key": "translateFrom",
+            "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/languages.html"
+          },
+          {
+            "label": "Item options source",
+            "description": "Where to get items from",
+            "key": "dataOptions",
+            "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/dataOptions.html"
+          },
+          {
+            "label": "Columns",
+            "description": "The number of columns on radio button options",
+            "key": "numberOfColumns",
+            "view": "decimal"
           },
           {
             "label": "Data type",
-            "description": "Choose one dropdown datatype to get elements",
+            "description": "Choose one radio buttonlist datatype to get elements",
             "key": "dataType",
             "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/dataTypes.html"
-          },
-          {
-            "label": "From database table",
-            "description": "if data is obtnained from a database table",
-            "key": "byTable",
-            "view": "boolean"
           },
           {
             "label": "Table",
@@ -41,22 +47,16 @@
             "view": "textstring"
           },
           {
-            "label": "Column",
-            "description": "The column or service field to get the data from",
+            "label": "Database column",
+            "description": "The database column to get the data from",
             "key": "column",
             "view": "textstring"
           },
           {
             "label": "Filter",
-            "description": "The query filter to get the data ( ex: yourColumn='someValue' and otherValue=1 or anotherValue like '%yourValue%' )",
+            "description": "The query filter to get the data (ex: yourColumn='someValue' and otherValue=1 or anotherValue like '%yourValue%' )",
             "key": "filter",
             "view": "textstring"
-          },
-          {
-            "label": "From umbraco content",
-            "description": "if data is obtnained from the umbraco content",
-            "key": "byContent",
-            "view": "boolean"
           },
           {
             "label": "Umbraco content type",
@@ -71,22 +71,10 @@
             "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/propertyNames.html"
           },
           {
-            "label": "From umbraco members",
-            "description": "if data is obtnained from the umbraco members",
-            "key": "byMember",
-            "view": "boolean"
-          },
-          {
             "label": "Umbraco member field",
             "description": "the property to get the data to read from",
             "key": "memberField",
             "view": "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/userFields.html"
-          },
-          {
-            "label": "From umbraco users",
-            "description": "if data is obtnained from the umbraco users",
-            "key": "byUser",
-            "view": "boolean"
           },
           {
             "label": "Umbraco user field",
@@ -111,7 +99,8 @@
   "javascript": [
     "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/propertyNames.controller.js",
     "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/contenttypes.controller.js",
-    "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/dataTypes.controlller.js",
+    "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/dataTypes.controller.js",
+    "~/App_Plugins/upwest.bundle/upwest.dropdown/prevalueseditors/languages.controller.js",
     "~/App_Plugins/upwest.bundle/upwest.dropdown/upwest.controller.js"
   ],
   "css": [

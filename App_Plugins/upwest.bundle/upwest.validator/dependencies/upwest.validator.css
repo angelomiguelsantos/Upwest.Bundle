@@ -12,10 +12,22 @@
     top:32px!important;
 }
 
-.error {
-    margin-left: 8px;
-    color: red;
-    font-size: smaller;
-    display: block;
+/*.upwestError {
+    margin-left: 8px !important;
+    color: red !important;
+    font-size: smaller !important;
+    display: block !important;
     margin-bottom: 0px !important;
+    background-color: unset !important;
+    border: 0px !important;
+}*/
+
+.upwestError {    
+    color: red !important;
+    font-size: smaller !important;    
+    margin-bottom: 0px !important;
+    background-color: unset !important;
+    border: 0px !important;
 }
+
+

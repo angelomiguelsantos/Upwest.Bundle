@@ -10,21 +10,18 @@
             $http({
                 url: "/umbraco/backoffice/api/DropdownList/GetDropdownOptions",
                 method: "GET",
-                params: {
-                    byDataType: $scope.model.config.byDatatype == 1 ? true : false,
-                    dataTypeId: $scope.model.config.dataType,
-                    byTable: $scope.model.config.byTable == 1 ? true : false,
+                params: {                    
+                    dataTypeId: $scope.model.config.dataType,                    
                     table: $scope.model.config.table,
-                    column: $scope.model.config.column,                    
-                    byContent: $scope.model.config.byContent == 1 ? true : false,
+                    column: $scope.model.config.column,      
                     contentTypeId: $scope.model.config.contentTypeId,
                     contentAlias: $scope.model.config.contentAlias,
-                    byMember: $scope.model.config.byMember == 1 ? true : false,
                     memberField: $scope.model.config.memberField,
-                    byUser: $scope.model.config.byUser == 1 ? true : false,
                     userField: $scope.model.config.userField,
                     filter: $scope.model.config.filter,
-                    alias: vm.alias
+                    alias: vm.alias,
+                    dataOptions: $scope.model.config.dataOptions,
+                    translateFrom: $scope.model.config.translateFrom
                 },
                 cache: false
             }).then(function success(data) {

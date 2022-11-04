@@ -576,7 +576,7 @@ function validateExternalProviderAccount() {
     }
 
     $.ajax({
-        url: "/umbraco/api/" + $("#memberExternalRegister").data("providercontroller") + "/ValidateAccount",
+        url: "/umbraco/api/Member/ConfirmProviderAccount",
         data: JSON.stringify($('#' + formId).serializeObject()),
         headers: { "RequestVerificationToken": $("#memberExternalRegister").data("token") },
         type: 'POST',
@@ -604,6 +604,14 @@ function validateExternalProviderAccount() {
             $(".box").fadeOut();
         }
     });
+}
+
+
+function openPayments() {
+    var yourWindow = window.open();
+    yourWindow.opener = null;
+    yourWindow.location = "";
+    yourWindow.target = "_blank";
 }
 
 
