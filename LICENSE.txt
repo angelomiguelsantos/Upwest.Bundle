@@ -94,4 +94,4 @@ Licensee understands that Upwest is subject to regulation by agencies of the EUL
 
 21. ENTIRE AGREEMENT
 This Agreement sets forth the entire understanding between the parties with respect to the subject matter hereof, and merges and supersedes all prior agreements, discussions andunderstandings, express or implied, concerning such matters. This Agreement shall take precedence over any additional or conflicting terms which may be contained in Licensee's purchase order or Upwest's order acknowledgment forms.
-IN WITNESS WHEREOF, the parties have caused this Agreement to be executed as of the Effective Date .
+IN WITNESS WHEREOF, the parties have caused this Agreement to be executed as of the Effective Date. 

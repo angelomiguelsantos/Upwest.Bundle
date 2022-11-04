@@ -1,4 +1,4 @@
-# Upwest.Bundle Umbraco package
+﻿# Upwest.Bundle Umbraco package
 ## _By Upwest_
 
 Google traking G-TSM2RWN549
@@ -98,7 +98,7 @@ There is a set of keys in your a appsettings.json to add your provider Keys
       "FileName": "Your file name"
     },
     "Upwest": {
-      "Key": "Please request your key to angelo.santos@upwest.pt",
+      "Key": "Please request your key on https://plugins.upwest.pt/payments",
       "TranslateFrom": "en"
     },
     "Recaptcha": {
