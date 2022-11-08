@@ -1,11 +1,6 @@
 # Upwest.Bundle Umbraco package
 ## _By Upwest_
 
-Google traking G-TSM2RWN549
-
-TOPICS
-Configure Keys
-
 [![Build Status](https://upwest.pt/media/icon3.png)](https://upwest.pt)
 
 
