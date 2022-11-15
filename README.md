@@ -72,6 +72,8 @@ Upwest bundle uses a number of open source projects:
 		6-Twilio 5.80.0
 		7-Google.Apis.Auth 1.57.0
 		8-ASPSMS 0.0.2 (built under .Net framework and could show you an alert on your references,If you have any trouble please use Twilio Sms service and please open an issue here)
+		9-Eziriz.reactor.stacktracedeobfuscator 2.9.0
+        	10-Eziriz.reactor.licensing 6.9.0
 
 *    Ask for your license.lic here https://plugins.upwest.pt/payments and put it in your 'App_Plugins/upwest.bundle/_upwest.base' directory `
 *    You can test Upwest.Bundle on your localhost environment without any restrictions
