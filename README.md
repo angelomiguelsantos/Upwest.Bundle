@@ -96,7 +96,8 @@ There is a set of keys in your a appsettings.json to add your provider Keys
     },
     "Upwest": {
       "Key": "Please request your key to angelo.santos@upwest.pt",
-      "TranslateFrom": "en"
+      "TranslateFrom": "en",
+      "SendSms" : false //if sms is sended in dev or production mode
     },
     "Recaptcha": {
       "Key": "Your Key",
